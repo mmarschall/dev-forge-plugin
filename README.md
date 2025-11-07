@@ -1,6 +1,6 @@
-# dev-forge-plugin
+# software-engineering-plugin
 
-Development Forge Plugin for Claude Code
+Software Engineering Plugin for Claude Code
 
 ## Overview
 
@@ -11,13 +11,21 @@ This is a Claude Code plugin that provides development tools and workflows.
 To install this plugin in Claude Code:
 
 ```bash
-claude plugin install https://github.com/mmarschall/dev-forge-plugin
+# Add this repository as a marketplace
+/plugin marketplace add mmarschall/software-engineering-plugin
+
+# Install the plugin
+/plugin install software-engineering-plugin@software-engineering-plugin
 ```
 
 Or install locally for development:
 
 ```bash
-claude plugin install /path/to/dev-forge-plugin
+# Add current directory as a local marketplace
+/plugin marketplace add .
+
+# Install the plugin from the local marketplace
+/plugin install software-engineering-plugin@.
 ```
 
 ## Structure
@@ -25,7 +33,7 @@ claude plugin install /path/to/dev-forge-plugin
 This plugin follows the standard Claude Code plugin structure:
 
 ```
-dev-forge-plugin/
+software-engineering-plugin/
 ├── .claude-plugin/
 │   └── plugin.json          # Plugin manifest (required)
 ├── commands/                # Slash commands
@@ -71,7 +79,7 @@ To develop this plugin:
 
 1. Clone the repository
 2. Make your changes
-3. Test locally with `claude-code plugin install .`
+3. Test locally with `claude plugin install .`
 4. Submit a pull request
 
 ## License

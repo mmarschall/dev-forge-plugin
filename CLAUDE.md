@@ -42,12 +42,20 @@ This is a Claude Code plugin that provides development tools and workflows. It f
 
 Install the plugin locally for development:
 ```bash
-claude-code plugin install .
+# Add current directory as a local marketplace
+/plugin marketplace add .
+
+# Install the plugin from the local marketplace
+/plugin install software-engineering-plugin@.
 ```
 
 Or install from GitHub:
 ```bash
-claude-code plugin install https://github.com/mmarschall/dev-forge-plugin
+# Add this repository as a marketplace
+/plugin marketplace add mmarschall/software-engineering-plugin
+
+# Install the plugin
+/plugin install software-engineering-plugin@software-engineering-plugin
 ```
 
 ## Creating New Components

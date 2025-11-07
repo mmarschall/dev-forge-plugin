@@ -1,13 +1,13 @@
 {
   "name": "software-engineering-plugin",
   "version": "0.1.0",
-  "description": "Development Forge Plugin for Claude Code",
+  "description": "Software Engineering Plugin for Claude Code",
   "author": {
     "name": "Matthias Marschall",
     "url": "https://github.com/mmarschall"
   },
-  "homepage": "https://github.com/mmarschall/dev-forge-plugin",
-  "repository": "https://github.com/mmarschall/dev-forge-plugin",
+  "homepage": "https://github.com/mmarschall/software-engineering-plugin",
+  "repository": "https://github.com/mmarschall/software-engineering-plugin",
   "license": "MIT",
   "keywords": ["development", "forge", "tools"],
   "hooks": "./hooks/hooks.json"
