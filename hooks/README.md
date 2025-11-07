@@ -2,15 +2,16 @@
 
 This directory contains hook configuration files for event handling.
 
-Hooks allow you to execute scripts or commands in response to specific events in Claude Code.
+## Configured Hooks
 
-## Example
+### Notification Hook
+Triggers when Claude sends a notification. Uses macOS text-to-speech to announce "Claude needs you".
 
-Create a `hooks.json` file to define your hooks:
+### Stop Hook
+Triggers when Claude stops processing. Uses macOS text-to-speech to announce "Claude is done".
 
-```json
-{
-  "pre-commit": "./scripts/pre-commit.sh",
-  "post-session": "./scripts/cleanup.sh"
-}
-```
+Both hooks use the Ava voice on macOS for audio notifications.
+
+## Configuration
+
+Hooks are defined in `hooks.json`. Each hook can execute commands or scripts in response to Claude Code events.
