@@ -11,13 +11,13 @@ This is a Claude Code plugin that provides development tools and workflows.
 To install this plugin in Claude Code:
 
 ```bash
-claude-code plugin install https://github.com/mmarschall/dev-forge-plugin
+claude plugin install https://github.com/mmarschall/dev-forge-plugin
 ```
 
 Or install locally for development:
 
 ```bash
-claude-code plugin install /path/to/dev-forge-plugin
+claude plugin install /path/to/dev-forge-plugin
 ```
 
 ## Structure
