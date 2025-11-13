@@ -9,6 +9,5 @@
   "homepage": "https://github.com/mmarschall/software-engineering-plugin",
   "repository": "https://github.com/mmarschall/software-engineering-plugin",
   "license": "MIT",
-  "keywords": ["development", "forge", "tools"],
-  "hooks": "./hooks/hooks.json"
+  "keywords": ["development", "forge", "tools"]
 }
