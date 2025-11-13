@@ -7,7 +7,7 @@
   "plugins": [
     {
       "name": "software-engineering-plugin",
-      "source": "https://github.com/mmarschall/software-engineering-plugin",
+      "source": "./",
       "description": "Development Forge Plugin for Claude Code - provides development tools and workflows including voice notifications for Claude Code events",
       "version": "0.1.0",
       "author": {
